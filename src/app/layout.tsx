@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Crimson_Pro, Manrope } from "next/font/google";
-// @ts-expect-error: importing global CSS in the App Router layout (Next.js specific)
 import "./globals.css";
 
 const crimsonPro = Crimson_Pro({
