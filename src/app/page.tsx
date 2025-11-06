@@ -164,7 +164,12 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8">Projects</h2>
           <div className="space-y-8">
             <div>
-              <h3 className="text-xl font-semibold mb-2">Drawspace - Realtime Drawing App</h3>
+              <h3 className="text-xl font-semibold mb-2">
+                <a href='https://drawspace-excalidraw-frontend.vercel.app/' target="_blank" rel="noopener noreferrer" 
+                className="hover:underline hover:text-[#c9561d]">
+                  Drawspace - Realtime Drawing App
+                </a>
+              </h3>
               <p className=" text-sm leading-relaxed mb-3">
                 I architected a Turborepo-based monorepo with shared UI, types, and logging packages, and implemented an async broadcast pattern that delivers ultra-low WebSocket sync times of 1–5ms compared to 100–500ms PostgreSQL writes. I secured both REST and WebSocket APIs using JWT HttpOnly cookies, bcrypt hashing, and tiered rate-limiting (5 auth/15 min, 200 shapes/min), with Prisma ORM ensuring safe, injection-free queries. I also engineered a performant canvas system with selection and resize logic, undo/redo state management, and structured Winston logging to track errors consistently across frontend and backend services.
               </p>
@@ -179,7 +184,12 @@ export default function Home() {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-2">Vibe - A Website Builder</h3>
+              <h3 className="text-xl font-semibold mb-2">
+                <a href='https://vibe-three-bice.vercel.app/' target="_blank" rel="noopener noreferrer" 
+                className="hover:underline hover:text-[#70a987]">
+                  Vibe - AI-Powered Coding Platform
+                </a>
+              </h3>
               <p className=" text-sm leading-relaxed mb-3">
                 I built a full-stack AI coding platform using Next.js, tRPC, Prisma, and PostgreSQL that enables real-time web app generation through a natural-language chat interface. I integrated E2B sandboxed environments with Gemini AI agents and orchestrated autonomous code generation, file management, and terminal operations using Inngest across isolated containers. The platform also includes authentication, usage tracking, and tiered rate limiting powered by Clerk, along with a credit-based system to manage AI agent iterations and sandbox execution limits.
               </p>
@@ -194,7 +204,12 @@ export default function Home() {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-2">Ezypay - Safe Payments App</h3>
+              <h3 className="text-xl font-semibold mb-2">
+                <a href='https://ezy-pay-frontend.vercel.app/' target="_blank" rel="noopener noreferrer" 
+                className="hover:underline hover:text-[#c9561d]">
+                  Ezypay - Safe Payments App
+                </a>
+              </h3>
               <p className=" text-sm leading-relaxed mb-3">
                 I developed a full-stack application using Next.js for efficient state handling, backed by PostgreSQL with Prisma as the ORM and NextAuth for secure authentication. The platform allows users to on-ramp money from their bank accounts into their wallets and transfer funds seamlessly to other users. For added security, I implemented a webhook-based verification flow for wallet top-ups, hosted on Cloudflare Workers to leverage a fast and scalable serverless architecture.
               </p>
